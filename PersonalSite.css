@@ -22,63 +22,124 @@
 .jumbotron{
     background-color: white;
     color:white;
-    padding: 300px 30px;
+    padding: 7% 30px;
     margin:0px 0px 0px 0px;
-    background-image:url("Images/Soccer-closeup.jpg");
-   
+    background-image:url("Images/background5.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;  
 }
 
 #nametag{
-    background-color: black;
+    
     width:650px;
-    padding: 10px 20px;
+    padding: 10px 0px;
     margin:0 auto;
-   
+    border-bottom:10px solid white;
 }
 
-#aboutMe{
-    padding:65px 25px;
+#exp{
+    padding:0px 0px;
     padding-bottom: 0px;
+    background-image:url("Images/backgroundx.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;  
+}
+#projects{
+    padding:0px 0px;
+    margin-bottom: 10px;
+    background-image:url("Images/backgroundx3.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;  
 }
 
 .containerbox{
-    border: 3px dashed;
-    border-color: aqua;
-    border-spacing: 30px    
+    border-spacing: 23px;
+    text-align: center;
 }
 
-#Bio{
-
-    font-size: 23px;
-    border-bottom: solid;
-    border-bottom-width: 10px;
-    padding-bottom: 50px;
-    border-color: red;
+.row{
+    display: -ms-flexbox; /* IE10 */
+     display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding-left: auto;
+}
+.workcolumn{
+    -ms-flex: 25%; /* IE10 */
+    flex: 30%;
+    max-width: 32%;
+    padding: 0 4px;
+    position: relative;
 }
 
-#Hbio{
+#socials img{
+    max-width: 10%;
+    padding: 0 4px;
+}
+
+#socials{
+    margin-left: 44.5%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.rowcenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.workcolumn img{
+    margin-top: 10px;
+    vertical-align: middle;
+    width: 70%;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px black;
+}
+
+#Experience{
     font-size: 50px;
-   
-    padding-bottom:5px;
+    color:black;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+#Experience2{
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.positionwork{
+    font-weight: bold;
+    font-size: 25px;
+    margin:0;
+    margin-top: 20px;
+}
+.positionworkbuddy{
+    font-size: 17px;
+    margin: 0;
+}
+.positionworkbuddyend{
+    font-size: 15px;
+    margin: 0;
+    margin-bottom:30px;
 }
 
 #rahulPhoto{
     height:400px;
-    
-    margin: 0 auto;
+    border-radius: 90%;
+    box-shadow: 0px 0px 50px black;
+    margin:  auto;
     
 }
 
-h4{
-    padding-top: 20px;
+h3{
+    text-align: center;
 }
 
-.thirdCol{
-    background-color: #2c3e50;
-}
 
 .workBio{
     font-size: 50px;
@@ -97,7 +158,6 @@ h4{
     color:white;
 }
 
-
 .portFlo{
    padding-bottom: 70px; 
 }
@@ -110,66 +170,15 @@ h4{
     font-size: 16px;
 }
 
-.parallel{
-    color:white;
-    height:225px;
-    background-image:url("Images/IMG_112336.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size:cover;  
-    padding-top: 75px;
-    font-size: 50px
-}
-
-.volen{
-    padding:60px 50px;
-    
-}
-
 .colBlu{
     background-color: #2c3e50;
-    color:white;
-    
-}
-.fruit{
-    font-size: 200px;
-    margin-top: 15px;
-}
-
-.book{
-    font-size: 200px;
-    margin-top: 15px;
-    margin-left: 1.5em;
-    
-}
-
-.pencil{
-    font-size: 200px;
-    margin-top: 15px;
+    color:white;  
 }
 
 a{
     color:inherit;
 }
 
-.volunt{
-    text-align: center;
-}
-
-.volunt h2{
-    font-size: 40px;
-}
-
-.volunt h4{
-    font-size: 20px;
-    line-height: 30px;
-    text-align: 
-}
-
-.volunt p{
-    font-size: 15px
-}
 
 footer{
     padding:60px;
@@ -177,17 +186,18 @@ footer{
     background-color: #ecf0f1;
 }
 
-
 @media screen and (max-width: 1225 px) {
     
     #rahulPhoto{
         height:300px;
-        margin-right: 
     }
     
-       .book{
-        margin-left:200px;
+    .workcolumn {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
     }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -228,15 +238,70 @@ footer{
         margin: 0 auto;
     }
     
-    .containerbox{
-        border: 3px dashed;
-        border-color: aqua;
-        border-spacing: 20px;    
-    }   
-    
     .parallel{
         padding-top:50px;
         font-size: 40px;
     }
+    
+
+    .rowcenter{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #projects{
+        padding:0px 0px;
+        padding-bottom: 0px;
+        background-image:url("Images/backgroundx3.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;  
+    }
 }
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .workcolumn {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+     
+    #Experience2{
+        font-size: 50px;
+        color:black;
+        font-weight: bold;
+        padding-top: 15%;
+        padding-bottom: 20%;
+    }
+
+    #exp{
+        padding:0px 0px;
+        padding-bottom: 0px;
+        background-image:url("Images/backgroundx2.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;  
+    }
+
+    #projects{
+        padding:0px 0px;
+        padding-bottom: 0px;
+        background-image:url("Images/backgroundx3.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;  
+    }
+
+    .containerbox{
+        border-spacing: 0px;    
+    }   
+
+    #socials img{
+        max-width: 50px;
+        padding: 0 4px;
+    }
+    #socials{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 41.5%;
+    }
+  }
 
