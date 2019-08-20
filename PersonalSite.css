@@ -67,9 +67,9 @@
 }
 .workcolumn{
     -ms-flex: 25%; /* IE10 */
-    flex: 30%;
-    max-width: 32%;
-    padding: 0 4px;
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 40px;
     position: relative;
 }
 
@@ -86,7 +86,7 @@
 
 
 .rowcenter{
-    margin-left: auto;
+    margin-left: 15%;
     margin-right: auto;
 }
 
@@ -215,7 +215,7 @@ footer{
         padding-top: 25px;
         padding-left: 0px;
         padding-right: 0px;
-        margin: 0px auto;
+        margin: 25px auto;
         letter-spacing: -1px;
         
     }
@@ -262,8 +262,12 @@ footer{
 @media screen and (max-width: 600px) {
     .workcolumn {
       -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
+      flex: 900%;
+      max-width: 90%;
+    }
+    .rowcenter{
+        margin-left: 10%;
+        margin-right: auto;
     }
      
     #Experience2{
